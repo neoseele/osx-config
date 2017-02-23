@@ -2,8 +2,8 @@ require 'logger'
 $LOG_GLOBAL = Logger.new(STDOUT)
 
 # Homebrew prefix (SED escaped):
-homebrew_prefix='\/Users\/temikus\/.homebrew'
-homebrew_repo='\/Users\/temikus\/.homebrew\/Homebrew'
+homebrew_prefix='\/Users\/nmiu\/.homebrew'
+homebrew_repo='\/Users\/nmiu\/.homebrew\/Homebrew'
 
 # Packages to install
 homebrew_packages = ['wget',
@@ -27,8 +27,8 @@ cask_packages = ['skype',
 cask_package_exceptions = ['ksdiff']
 
 # Git settings
-git_config_global_user_name='Artem Yakimenko'
-git_config_global_user_email='code@temik.me'
+git_config_global_user_name='Neil Miao'
+git_config_global_user_email='nmiu@google.com'
 git_config_global_push_default='simple'
 git_config_global_core_excludesfile='~/.gitignore_global'
 
